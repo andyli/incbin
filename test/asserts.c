@@ -1,10 +1,7 @@
 #include <assert.h>
 #include <stdlib.h>
-#include "../incbin.h"
+#include "resources.h"
 
-INCBIN(Lorem, "loremipsum.txt");
-INCBIN(Onebyte, "onebyte.txt");
-INCBIN(Sevenbytes, "sevenbytes.txt");
 
 int main(int argc, char **argv)
 {
